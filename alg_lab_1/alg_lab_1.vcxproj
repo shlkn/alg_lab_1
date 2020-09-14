@@ -144,7 +144,6 @@
     <ClCompile Include="search_alg.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="alg_lab_1.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="search_alg.h" />
   </ItemGroup>

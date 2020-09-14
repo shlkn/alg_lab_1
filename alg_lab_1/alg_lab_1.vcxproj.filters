@@ -26,9 +26,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="alg_lab_1.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
     <ClInclude Include="search_alg.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>

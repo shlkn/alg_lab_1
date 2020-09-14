@@ -25,6 +25,7 @@ int search_q(char* k, int n, char key)
 			break;
 		}
 	}
+	cout<<i<<endl;
 	return i;
 }
 
@@ -53,7 +54,7 @@ int search_t(char* k, int n, char key)
 		}
 	}
 	if (rez < 17)
-		cout << i;
+		cout << i<<endl;
 	cout << "Sort mass: ";
 	for (i = 0; i < 17; i++)
 		cout << k[i] << " ";
@@ -96,9 +97,9 @@ int search_bin(char* k, int n, char key) //поиск делением по полам
 	}
 
 	if (flag)
-		cout << mid << " ";
+		cout << mid << endl;
 	else cout << "sorry but key not found";
-	cout << "Sort mass: " << endl;
+	cout << "Sort mass: ";
 	for (i = 0; i < 17; i++)
 		cout << k[i] << " ";
 	return i;
